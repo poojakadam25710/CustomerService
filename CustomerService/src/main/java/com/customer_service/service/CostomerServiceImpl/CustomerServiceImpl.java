@@ -171,6 +171,7 @@ public class CustomerServiceImpl implements CustomerService {
 
         customerProducer.sendCustomerDeletedEvent(id);
     }
+    //added logic
     //update code
     // ================= COMMON MAPPER =================
     private CustomerResponse mapToResponse(Customer customer) {
